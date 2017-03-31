@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr" xml:lang="fr">
+  <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>SE3 Documentation</title>
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <style>
+          body {
+              padding-top: 40px;
+              padding-bottom: 20px;
+          }
+      </style>
+
+      <link rel="stylesheet" href="css/bootstrap-responsive.css">
+      <link rel="stylesheet" href="css/main.css?version=270317">
+      <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+  </head>
+  <body>
+  <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-inner">
+      <div class="container">
+        <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="brand" href="#">Documentation SE3</a>
+        <div class="nav-collapse collapse">
+          <ul class="nav">
+            <li ><a href="https://github.com/SambaEdu/se3-docs">Projet</a></li>
+            <li class="active"><a href="./index.php">Documentation</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="side-menu" style='overflow:auto;'>
+    <nav class="navbar navbar-nav" role="navigation">
+      <div class="side-menu-container">
+        <?php echo $summaryHTML; ?>
+      </div>
+    </nav>
+  </div>
+
+  <div class='container-fluid'>
+    <div class="side-body">
+      <?php echo $mainContentHTML; ?>
+    </div>
+  </div>
+  <hr>
+  <footer>
+    <p>L'association SE3</p>
+  </footer>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
+  <script src="js/vendor/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+  </body>
+</html>

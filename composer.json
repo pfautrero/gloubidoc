@@ -1,0 +1,6 @@
+{
+    "require": {
+              "cebe/markdown": "~1.0.1"
+    }
+}
+

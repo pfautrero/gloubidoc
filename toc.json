@@ -1,0 +1,40 @@
+
+{
+  "Le README": [
+    {
+      "title" : "Ce qu'il faut savoir !",
+      "url" : "https://raw.githubusercontent.com/SambaEdu/se3-docs/master/README.md"
+    }
+  ],
+  "Clients Linux": [
+    {
+      "title": "README",
+      "url": "https://raw.githubusercontent.com/SambaEdu/se3-docs/master/dev-clients-linux/README.md"
+    },
+    {
+      "title": "apt repository",
+      "url": "https://raw.githubusercontent.com/SambaEdu/se3-docs/master/dev-clients-linux/apt-repository.md"
+    },
+    {
+      "title": "build-package",
+      "url": "https://raw.githubusercontent.com/SambaEdu/se3-docs/master/dev-clients-linux/build-package.md"
+    },
+    {
+      "title": "memo git",
+      "url": "https://raw.githubusercontent.com/SambaEdu/se3-docs/master/dev-clients-linux/memo-git.md"
+    }
+  ],
+  "Clients Windows": [
+    {
+      "title": "Imprimantes",
+      "url": "https://raw.githubusercontent.com/SambaEdu/se3-docs/master/se3-clients-windows/imprimantes.md"
+    }
+  ],
+  "Installation": [
+    {
+      "title": "Installation manuelle",
+      "url": "https://raw.githubusercontent.com/SambaEdu/se3-docs/master/se3-installation/installationmanuelle.md"
+    }
+  ]
+
+}
